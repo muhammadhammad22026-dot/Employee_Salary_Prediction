@@ -53,7 +53,7 @@ The inspected file had missing values in `Age` (211) and `Salary` (24). The clea
 Use Python 3.10 or newer.
 
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/muhammadhammad22026-dot/Employee_Salary_Prediction>
 cd Employee-Salary-Prediction
 
 python -m venv .venv
