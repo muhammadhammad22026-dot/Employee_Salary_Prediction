@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Private employee data - do not commit
+data/raw/*.csv
+data/processed/*.csv
+
+# Trained model artifacts
+models/*.joblib
+models/*.pkl
+
+# Generated charts (keep folder, do not commit output by default)
+visualizations/*.png
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# PRIVATE EMPLOYEE DATA
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Common dataset formats
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.jsonl
